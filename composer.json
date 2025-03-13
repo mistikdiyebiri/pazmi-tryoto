@@ -1,0 +1,22 @@
+{
+    "name": "pazmi/tryoto",
+    "description": "TryOto kargo API entegrasyonu için CodeIgniter 4 kütüphanesi",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pazmi",
+            "email": "info@pazmi.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "codeigniter4/framework": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pazmi\\TryOto\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
